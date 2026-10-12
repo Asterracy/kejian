@@ -1,0 +1,9 @@
+{
+  "name": "exceljs",
+  "version": "4.4.0",
+  "source": "https://registry.npmjs.org/exceljs/-/exceljs-4.4.0.tgz",
+  "integrity": "sha512-XctvKaEMaj1Ii9oDOqbW/6e1gXknSY4g/aLCDicOXqBE4M0nRWkUu0PTp++UPNzoFY12BNHMfs/VadKIS6llvg==",
+  "tarballSha256": "8adac13d192ce80e11304732d3ab96708b2c64bb54771b5da4f946e5eea55a18",
+  "bundleFile": "exceljs-4.4.0.min.js",
+  "bundleSha256": "7e49da68588e250dbb8bba190d2caa8ab3787cc0284bda1d8b2f805c4df742c9"
+}

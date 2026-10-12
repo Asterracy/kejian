@@ -1,0 +1,1074 @@
+{
+  "exceljsVersion": "4.4.0",
+  "exceljsSource": "https://registry.npmjs.org/exceljs/-/exceljs-4.4.0.tgz",
+  "tarballSha256": "8adac13d192ce80e11304732d3ab96708b2c64bb54771b5da4f946e5eea55a18",
+  "bundleSha256": "7e49da68588e250dbb8bba190d2caa8ab3787cc0284bda1d8b2f805c4df742c9",
+  "modules": [
+    {
+      "name": "@fast-csv/format",
+      "referenceVersion": "4.3.5",
+      "license": "MIT",
+      "source": "https://registry.npmjs.org/@fast-csv/format/-/format-4.3.5.tgz",
+      "sourceMatching": {
+        "matchedFiles": 0,
+        "comparedFiles": 7,
+        "exactInstalledVersionKnown": false
+      },
+      "licenseFiles": [
+        "fast-csv-format-4.3.5-LICENSE"
+      ]
+    },
+    {
+      "name": "@fast-csv/parse",
+      "referenceVersion": "4.3.6",
+      "license": "MIT",
+      "source": "https://registry.npmjs.org/@fast-csv/parse/-/parse-4.3.6.tgz",
+      "sourceMatching": {
+        "matchedFiles": 0,
+        "comparedFiles": 17,
+        "exactInstalledVersionKnown": false
+      },
+      "licenseFiles": [
+        "fast-csv-parse-4.3.6-LICENSE"
+      ]
+    },
+    {
+      "name": "asn1.js",
+      "referenceVersion": "5.4.1",
+      "license": "MIT",
+      "source": "https://registry.npmjs.org/asn1.js/-/asn1.js-5.4.1.tgz",
+      "sourceMatching": {
+        "matchedFiles": 14,
+        "comparedFiles": 14,
+        "exactInstalledVersionKnown": false
+      },
+      "licenseFiles": [
+        "asn1.js-5.4.1-LICENSE"
+      ]
+    },
+    {
+      "name": "base64-js",
+      "referenceVersion": "1.5.1",
+      "license": "MIT",
+      "source": "https://registry.npmjs.org/base64-js/-/base64-js-1.5.1.tgz",
+      "sourceMatching": {
+        "matchedFiles": 1,
+        "comparedFiles": 1,
+        "exactInstalledVersionKnown": false
+      },
+      "licenseFiles": [
+        "base64-js-1.5.1-LICENSE"
+      ]
+    },
+    {
+      "name": "bn.js",
+      "referenceVersion": "4.12.0",
+      "license": "MIT",
+      "source": "https://registry.npmjs.org/bn.js/-/bn.js-4.12.0.tgz",
+      "sourceMatching": {
+        "matchedFiles": 1,
+        "comparedFiles": 1,
+        "exactInstalledVersionKnown": false
+      },
+      "licenseFiles": [
+        "bn.js-4.12.0-LICENSE"
+      ]
+    },
+    {
+      "name": "bn.js",
+      "referenceVersion": "5.2.1",
+      "license": "MIT",
+      "source": "https://registry.npmjs.org/bn.js/-/bn.js-5.2.1.tgz",
+      "sourceMatching": {
+        "matchedFiles": 1,
+        "comparedFiles": 1,
+        "exactInstalledVersionKnown": false
+      },
+      "licenseFiles": [
+        "bn.js-5.2.1-LICENSE"
+      ]
+    },
+    {
+      "name": "brorand",
+      "referenceVersion": "1.1.0",
+      "license": "MIT",
+      "source": "https://registry.npmjs.org/brorand/-/brorand-1.1.0.tgz",
+      "sourceMatching": {
+        "matchedFiles": 1,
+        "comparedFiles": 1,
+        "exactInstalledVersionKnown": false
+      },
+      "licenseFiles": [
+        "brorand-1.1.0-LICENSE-from-README.txt"
+      ]
+    },
+    {
+      "name": "browser-pack",
+      "referenceVersion": "6.1.0",
+      "license": "MIT",
+      "source": "https://registry.npmjs.org/browser-pack/-/browser-pack-6.1.0.tgz",
+      "sourceMatching": {
+        "matchedFiles": 1,
+        "comparedFiles": 1,
+        "exactInstalledVersionKnown": false
+      },
+      "licenseFiles": [
+        "browser-pack-6.1.0-LICENSE"
+      ]
+    },
+    {
+      "name": "browserify-aes",
+      "referenceVersion": "1.2.0",
+      "license": "MIT",
+      "source": "https://registry.npmjs.org/browserify-aes/-/browserify-aes-1.2.0.tgz",
+      "sourceMatching": {
+        "matchedFiles": 17,
+        "comparedFiles": 17,
+        "exactInstalledVersionKnown": false
+      },
+      "licenseFiles": [
+        "browserify-aes-1.2.0-LICENSE"
+      ]
+    },
+    {
+      "name": "browserify-cipher",
+      "referenceVersion": "1.0.1",
+      "license": "MIT",
+      "source": "https://registry.npmjs.org/browserify-cipher/-/browserify-cipher-1.0.1.tgz",
+      "sourceMatching": {
+        "matchedFiles": 1,
+        "comparedFiles": 1,
+        "exactInstalledVersionKnown": false
+      },
+      "licenseFiles": [
+        "browserify-cipher-1.0.1-LICENSE"
+      ]
+    },
+    {
+      "name": "browserify-des",
+      "referenceVersion": "1.0.2",
+      "license": "MIT",
+      "source": "https://registry.npmjs.org/browserify-des/-/browserify-des-1.0.2.tgz",
+      "sourceMatching": {
+        "matchedFiles": 2,
+        "comparedFiles": 2,
+        "exactInstalledVersionKnown": false
+      },
+      "licenseFiles": [
+        "browserify-des-1.0.2-license"
+      ]
+    },
+    {
+      "name": "browserify-rsa",
+      "referenceVersion": "4.1.0",
+      "license": "MIT",
+      "source": "https://registry.npmjs.org/browserify-rsa/-/browserify-rsa-4.1.0.tgz",
+      "sourceMatching": {
+        "matchedFiles": 1,
+        "comparedFiles": 1,
+        "exactInstalledVersionKnown": false
+      },
+      "licenseFiles": [
+        "browserify-rsa-4.1.0-LICENSE"
+      ]
+    },
+    {
+      "name": "browserify-sign",
+      "referenceVersion": "4.2.1",
+      "license": "ISC",
+      "source": "https://registry.npmjs.org/browserify-sign/-/browserify-sign-4.2.1.tgz",
+      "sourceMatching": {
+        "matchedFiles": 6,
+        "comparedFiles": 6,
+        "exactInstalledVersionKnown": false
+      },
+      "licenseFiles": [
+        "browserify-sign-4.2.1-LICENSE"
+      ]
+    },
+    {
+      "name": "buffer",
+      "referenceVersion": "5.2.1",
+      "license": "MIT",
+      "source": "https://registry.npmjs.org/buffer/-/buffer-5.2.1.tgz",
+      "sourceMatching": {
+        "matchedFiles": 1,
+        "comparedFiles": 1,
+        "exactInstalledVersionKnown": false
+      },
+      "licenseFiles": [
+        "buffer-5.2.1-LICENSE"
+      ]
+    },
+    {
+      "name": "buffer-xor",
+      "referenceVersion": "1.0.3",
+      "license": "MIT",
+      "source": "https://registry.npmjs.org/buffer-xor/-/buffer-xor-1.0.3.tgz",
+      "sourceMatching": {
+        "matchedFiles": 1,
+        "comparedFiles": 1,
+        "exactInstalledVersionKnown": false
+      },
+      "licenseFiles": [
+        "buffer-xor-1.0.3-LICENSE"
+      ]
+    },
+    {
+      "name": "cipher-base",
+      "referenceVersion": "1.0.4",
+      "license": "MIT",
+      "source": "https://registry.npmjs.org/cipher-base/-/cipher-base-1.0.4.tgz",
+      "sourceMatching": {
+        "matchedFiles": 1,
+        "comparedFiles": 1,
+        "exactInstalledVersionKnown": false
+      },
+      "licenseFiles": [
+        "cipher-base-1.0.4-LICENSE"
+      ]
+    },
+    {
+      "name": "core-js",
+      "referenceVersion": "3.33.0",
+      "license": "MIT",
+      "source": "https://registry.npmjs.org/core-js/-/core-js-3.33.0.tgz",
+      "sourceMatching": {
+        "matchedFiles": 160,
+        "comparedFiles": 160,
+        "exactInstalledVersionKnown": true
+      },
+      "licenseFiles": [
+        "core-js-3.33.0-LICENSE"
+      ]
+    },
+    {
+      "name": "core-util-is",
+      "referenceVersion": "1.0.3",
+      "license": "MIT",
+      "source": "https://registry.npmjs.org/core-util-is/-/core-util-is-1.0.3.tgz",
+      "sourceMatching": {
+        "matchedFiles": 1,
+        "comparedFiles": 1,
+        "exactInstalledVersionKnown": false
+      },
+      "licenseFiles": [
+        "core-util-is-1.0.3-LICENSE"
+      ]
+    },
+    {
+      "name": "create-ecdh",
+      "referenceVersion": "4.0.4",
+      "license": "MIT",
+      "source": "https://registry.npmjs.org/create-ecdh/-/create-ecdh-4.0.4.tgz",
+      "sourceMatching": {
+        "matchedFiles": 1,
+        "comparedFiles": 1,
+        "exactInstalledVersionKnown": false
+      },
+      "licenseFiles": [
+        "create-ecdh-4.0.4-LICENSE"
+      ]
+    },
+    {
+      "name": "create-hash",
+      "referenceVersion": "1.2.0",
+      "license": "MIT",
+      "source": "https://registry.npmjs.org/create-hash/-/create-hash-1.2.0.tgz",
+      "sourceMatching": {
+        "matchedFiles": 2,
+        "comparedFiles": 2,
+        "exactInstalledVersionKnown": false
+      },
+      "licenseFiles": [
+        "create-hash-1.2.0-LICENSE"
+      ]
+    },
+    {
+      "name": "create-hmac",
+      "referenceVersion": "1.1.7",
+      "license": "MIT",
+      "source": "https://registry.npmjs.org/create-hmac/-/create-hmac-1.1.7.tgz",
+      "sourceMatching": {
+        "matchedFiles": 2,
+        "comparedFiles": 2,
+        "exactInstalledVersionKnown": false
+      },
+      "licenseFiles": [
+        "create-hmac-1.1.7-LICENSE"
+      ]
+    },
+    {
+      "name": "crypto-browserify",
+      "referenceVersion": "3.12.0",
+      "license": "MIT",
+      "source": "https://registry.npmjs.org/crypto-browserify/-/crypto-browserify-3.12.0.tgz",
+      "sourceMatching": {
+        "matchedFiles": 1,
+        "comparedFiles": 1,
+        "exactInstalledVersionKnown": false
+      },
+      "licenseFiles": [
+        "crypto-browserify-3.12.0-LICENSE"
+      ]
+    },
+    {
+      "name": "dayjs",
+      "referenceVersion": "1.11.10",
+      "license": "MIT",
+      "source": "https://registry.npmjs.org/dayjs/-/dayjs-1.11.10.tgz",
+      "sourceMatching": {
+        "matchedFiles": 3,
+        "comparedFiles": 3,
+        "exactInstalledVersionKnown": false
+      },
+      "licenseFiles": [
+        "dayjs-1.11.10-LICENSE"
+      ]
+    },
+    {
+      "name": "des.js",
+      "referenceVersion": "1.1.0",
+      "license": "MIT",
+      "source": "https://registry.npmjs.org/des.js/-/des.js-1.1.0.tgz",
+      "sourceMatching": {
+        "matchedFiles": 6,
+        "comparedFiles": 6,
+        "exactInstalledVersionKnown": false
+      },
+      "licenseFiles": [
+        "des.js-1.1.0-LICENSE-from-README.txt"
+      ]
+    },
+    {
+      "name": "diffie-hellman",
+      "referenceVersion": "5.0.3",
+      "license": "MIT",
+      "source": "https://registry.npmjs.org/diffie-hellman/-/diffie-hellman-5.0.3.tgz",
+      "sourceMatching": {
+        "matchedFiles": 4,
+        "comparedFiles": 4,
+        "exactInstalledVersionKnown": false
+      },
+      "licenseFiles": [
+        "diffie-hellman-5.0.3-LICENSE"
+      ]
+    },
+    {
+      "name": "elliptic",
+      "referenceVersion": "6.5.4",
+      "license": "MIT",
+      "source": "https://registry.npmjs.org/elliptic/-/elliptic-6.5.4.tgz",
+      "sourceMatching": {
+        "matchedFiles": 16,
+        "comparedFiles": 16,
+        "exactInstalledVersionKnown": true
+      },
+      "licenseFiles": [
+        "elliptic-6.5.4-LICENSE-from-README.txt"
+      ]
+    },
+    {
+      "name": "events",
+      "referenceVersion": "2.1.0",
+      "license": "MIT",
+      "source": "https://registry.npmjs.org/events/-/events-2.1.0.tgz",
+      "sourceMatching": {
+        "matchedFiles": 1,
+        "comparedFiles": 1,
+        "exactInstalledVersionKnown": false
+      },
+      "licenseFiles": [
+        "events-2.1.0-LICENSE"
+      ]
+    },
+    {
+      "name": "evp_bytestokey",
+      "referenceVersion": "1.0.3",
+      "license": "MIT",
+      "source": "https://registry.npmjs.org/evp_bytestokey/-/evp_bytestokey-1.0.3.tgz",
+      "sourceMatching": {
+        "matchedFiles": 1,
+        "comparedFiles": 1,
+        "exactInstalledVersionKnown": false
+      },
+      "licenseFiles": [
+        "evp_bytestokey-1.0.3-LICENSE"
+      ]
+    },
+    {
+      "name": "fast-csv",
+      "referenceVersion": "4.3.6",
+      "license": "MIT",
+      "source": "https://registry.npmjs.org/fast-csv/-/fast-csv-4.3.6.tgz",
+      "sourceMatching": {
+        "matchedFiles": 0,
+        "comparedFiles": 1,
+        "exactInstalledVersionKnown": false
+      },
+      "licenseFiles": [
+        "fast-csv-4.3.6-LICENSE"
+      ]
+    },
+    {
+      "name": "hash-base",
+      "referenceVersion": "3.1.0",
+      "license": "MIT",
+      "source": "https://registry.npmjs.org/hash-base/-/hash-base-3.1.0.tgz",
+      "sourceMatching": {
+        "matchedFiles": 1,
+        "comparedFiles": 1,
+        "exactInstalledVersionKnown": false
+      },
+      "licenseFiles": [
+        "hash-base-3.1.0-LICENSE"
+      ]
+    },
+    {
+      "name": "hash.js",
+      "referenceVersion": "1.1.7",
+      "license": "MIT",
+      "source": "https://registry.npmjs.org/hash.js/-/hash.js-1.1.7.tgz",
+      "sourceMatching": {
+        "matchedFiles": 12,
+        "comparedFiles": 12,
+        "exactInstalledVersionKnown": false
+      },
+      "licenseFiles": [
+        "hash.js-1.1.7-LICENSE-from-README.txt"
+      ]
+    },
+    {
+      "name": "hmac-drbg",
+      "referenceVersion": "1.0.1",
+      "license": "MIT",
+      "source": "https://registry.npmjs.org/hmac-drbg/-/hmac-drbg-1.0.1.tgz",
+      "sourceMatching": {
+        "matchedFiles": 1,
+        "comparedFiles": 1,
+        "exactInstalledVersionKnown": false
+      },
+      "licenseFiles": [
+        "hmac-drbg-1.0.1-LICENSE-from-README.txt"
+      ]
+    },
+    {
+      "name": "ieee754",
+      "referenceVersion": "1.2.1",
+      "license": "BSD-3-Clause",
+      "source": "https://registry.npmjs.org/ieee754/-/ieee754-1.2.1.tgz",
+      "sourceMatching": {
+        "matchedFiles": 1,
+        "comparedFiles": 1,
+        "exactInstalledVersionKnown": false
+      },
+      "licenseFiles": [
+        "ieee754-1.2.1-LICENSE"
+      ]
+    },
+    {
+      "name": "immediate",
+      "referenceVersion": "3.0.6",
+      "license": "MIT",
+      "source": "https://registry.npmjs.org/immediate/-/immediate-3.0.6.tgz",
+      "sourceMatching": {
+        "matchedFiles": 0,
+        "comparedFiles": 1,
+        "exactInstalledVersionKnown": false
+      },
+      "licenseFiles": [
+        "immediate-3.0.6-LICENSE.txt"
+      ]
+    },
+    {
+      "name": "inherits",
+      "referenceVersion": "2.0.3",
+      "license": "ISC",
+      "source": "https://registry.npmjs.org/inherits/-/inherits-2.0.3.tgz",
+      "sourceMatching": {
+        "matchedFiles": 1,
+        "comparedFiles": 1,
+        "exactInstalledVersionKnown": false
+      },
+      "licenseFiles": [
+        "inherits-2.0.3-LICENSE"
+      ]
+    },
+    {
+      "name": "inherits",
+      "referenceVersion": "2.0.4",
+      "license": "ISC",
+      "source": "https://registry.npmjs.org/inherits/-/inherits-2.0.4.tgz",
+      "sourceMatching": {
+        "matchedFiles": 1,
+        "comparedFiles": 1,
+        "exactInstalledVersionKnown": false
+      },
+      "licenseFiles": [
+        "inherits-2.0.4-LICENSE"
+      ]
+    },
+    {
+      "name": "isarray",
+      "referenceVersion": "2.0.5",
+      "license": "MIT",
+      "source": "https://registry.npmjs.org/isarray/-/isarray-2.0.5.tgz",
+      "sourceMatching": {
+        "matchedFiles": 1,
+        "comparedFiles": 1,
+        "exactInstalledVersionKnown": false
+      },
+      "licenseFiles": [
+        "isarray-2.0.5-LICENSE"
+      ]
+    },
+    {
+      "name": "jszip",
+      "referenceVersion": "3.10.1",
+      "license": "MIT (chosen from MIT OR GPL-3.0-or-later)",
+      "source": "https://registry.npmjs.org/jszip/-/jszip-3.10.1.tgz",
+      "sourceMatching": {
+        "matchedFiles": 1,
+        "comparedFiles": 1,
+        "exactInstalledVersionKnown": true
+      },
+      "licenseFiles": [
+        "jszip-3.10.1-LICENSE-MIT.txt",
+        "jszip-3.10.1-lib-license_header.js"
+      ]
+    },
+    {
+      "name": "lie",
+      "referenceVersion": "3.3.0",
+      "license": "MIT",
+      "source": "https://registry.npmjs.org/lie/-/lie-3.3.0.tgz",
+      "sourceMatching": {
+        "matchedFiles": 1,
+        "comparedFiles": 1,
+        "exactInstalledVersionKnown": false
+      },
+      "licenseFiles": [
+        "lie-3.3.0-license.md"
+      ]
+    },
+    {
+      "name": "lodash.escaperegexp",
+      "referenceVersion": "4.1.2",
+      "license": "MIT",
+      "source": "https://registry.npmjs.org/lodash.escaperegexp/-/lodash.escaperegexp-4.1.2.tgz",
+      "sourceMatching": {
+        "matchedFiles": 1,
+        "comparedFiles": 1,
+        "exactInstalledVersionKnown": false
+      },
+      "licenseFiles": [
+        "lodash.escaperegexp-4.1.2-LICENSE"
+      ]
+    },
+    {
+      "name": "lodash.groupby",
+      "referenceVersion": "4.6.0",
+      "license": "MIT",
+      "source": "https://registry.npmjs.org/lodash.groupby/-/lodash.groupby-4.6.0.tgz",
+      "sourceMatching": {
+        "matchedFiles": 1,
+        "comparedFiles": 1,
+        "exactInstalledVersionKnown": false
+      },
+      "licenseFiles": [
+        "lodash.groupby-4.6.0-LICENSE"
+      ]
+    },
+    {
+      "name": "lodash.isboolean",
+      "referenceVersion": "3.0.3",
+      "license": "MIT",
+      "source": "https://registry.npmjs.org/lodash.isboolean/-/lodash.isboolean-3.0.3.tgz",
+      "sourceMatching": {
+        "matchedFiles": 1,
+        "comparedFiles": 1,
+        "exactInstalledVersionKnown": false
+      },
+      "licenseFiles": [
+        "lodash.isboolean-3.0.3-LICENSE"
+      ]
+    },
+    {
+      "name": "lodash.isequal",
+      "referenceVersion": "4.5.0",
+      "license": "MIT",
+      "source": "https://registry.npmjs.org/lodash.isequal/-/lodash.isequal-4.5.0.tgz",
+      "sourceMatching": {
+        "matchedFiles": 1,
+        "comparedFiles": 1,
+        "exactInstalledVersionKnown": false
+      },
+      "licenseFiles": [
+        "lodash.isequal-4.5.0-LICENSE"
+      ]
+    },
+    {
+      "name": "lodash.isfunction",
+      "referenceVersion": "3.0.9",
+      "license": "MIT",
+      "source": "https://registry.npmjs.org/lodash.isfunction/-/lodash.isfunction-3.0.9.tgz",
+      "sourceMatching": {
+        "matchedFiles": 1,
+        "comparedFiles": 1,
+        "exactInstalledVersionKnown": false
+      },
+      "licenseFiles": [
+        "lodash.isfunction-3.0.9-LICENSE"
+      ]
+    },
+    {
+      "name": "lodash.isnil",
+      "referenceVersion": "4.0.0",
+      "license": "MIT",
+      "source": "https://registry.npmjs.org/lodash.isnil/-/lodash.isnil-4.0.0.tgz",
+      "sourceMatching": {
+        "matchedFiles": 1,
+        "comparedFiles": 1,
+        "exactInstalledVersionKnown": false
+      },
+      "licenseFiles": [
+        "lodash.isnil-4.0.0-LICENSE"
+      ]
+    },
+    {
+      "name": "lodash.isundefined",
+      "referenceVersion": "3.0.1",
+      "license": "MIT",
+      "source": "https://registry.npmjs.org/lodash.isundefined/-/lodash.isundefined-3.0.1.tgz",
+      "sourceMatching": {
+        "matchedFiles": 1,
+        "comparedFiles": 1,
+        "exactInstalledVersionKnown": false
+      },
+      "licenseFiles": [
+        "lodash.isundefined-3.0.1-LICENSE.txt"
+      ]
+    },
+    {
+      "name": "lodash.uniq",
+      "referenceVersion": "4.5.0",
+      "license": "MIT",
+      "source": "https://registry.npmjs.org/lodash.uniq/-/lodash.uniq-4.5.0.tgz",
+      "sourceMatching": {
+        "matchedFiles": 1,
+        "comparedFiles": 1,
+        "exactInstalledVersionKnown": false
+      },
+      "licenseFiles": [
+        "lodash.uniq-4.5.0-LICENSE"
+      ]
+    },
+    {
+      "name": "md5.js",
+      "referenceVersion": "1.3.5",
+      "license": "MIT",
+      "source": "https://registry.npmjs.org/md5.js/-/md5.js-1.3.5.tgz",
+      "sourceMatching": {
+        "matchedFiles": 1,
+        "comparedFiles": 1,
+        "exactInstalledVersionKnown": false
+      },
+      "licenseFiles": [
+        "md5.js-1.3.5-LICENSE"
+      ]
+    },
+    {
+      "name": "miller-rabin",
+      "referenceVersion": "4.0.1",
+      "license": "MIT",
+      "source": "https://registry.npmjs.org/miller-rabin/-/miller-rabin-4.0.1.tgz",
+      "sourceMatching": {
+        "matchedFiles": 1,
+        "comparedFiles": 1,
+        "exactInstalledVersionKnown": false
+      },
+      "licenseFiles": [
+        "miller-rabin-4.0.1-LICENSE-from-README.txt"
+      ]
+    },
+    {
+      "name": "minimalistic-assert",
+      "referenceVersion": "1.0.1",
+      "license": "ISC",
+      "source": "https://registry.npmjs.org/minimalistic-assert/-/minimalistic-assert-1.0.1.tgz",
+      "sourceMatching": {
+        "matchedFiles": 1,
+        "comparedFiles": 1,
+        "exactInstalledVersionKnown": false
+      },
+      "licenseFiles": [
+        "minimalistic-assert-1.0.1-LICENSE"
+      ]
+    },
+    {
+      "name": "minimalistic-crypto-utils",
+      "referenceVersion": "1.0.1",
+      "license": "MIT",
+      "source": "https://registry.npmjs.org/minimalistic-crypto-utils/-/minimalistic-crypto-utils-1.0.1.tgz",
+      "sourceMatching": {
+        "matchedFiles": 1,
+        "comparedFiles": 1,
+        "exactInstalledVersionKnown": false
+      },
+      "licenseFiles": [
+        "minimalistic-crypto-utils-1.0.1-LICENSE-from-README.txt"
+      ]
+    },
+    {
+      "name": "pako",
+      "referenceVersion": "1.0.11",
+      "license": "(MIT AND Zlib)",
+      "source": "https://registry.npmjs.org/pako/-/pako-1.0.11.tgz",
+      "sourceMatching": {
+        "matchedFiles": 7,
+        "comparedFiles": 16,
+        "exactInstalledVersionKnown": false
+      },
+      "licenseFiles": [
+        "pako-1.0.11-LICENSE",
+        "pako-1.0.11-ZLIB-NOTICE.txt"
+      ]
+    },
+    {
+      "name": "parse-asn1",
+      "referenceVersion": "5.1.6",
+      "license": "ISC",
+      "source": "https://registry.npmjs.org/parse-asn1/-/parse-asn1-5.1.6.tgz",
+      "sourceMatching": {
+        "matchedFiles": 5,
+        "comparedFiles": 5,
+        "exactInstalledVersionKnown": false
+      },
+      "licenseFiles": [
+        "parse-asn1-5.1.6-LICENSE"
+      ]
+    },
+    {
+      "name": "pbkdf2",
+      "referenceVersion": "3.1.2",
+      "license": "MIT",
+      "source": "https://registry.npmjs.org/pbkdf2/-/pbkdf2-3.1.2.tgz",
+      "sourceMatching": {
+        "matchedFiles": 6,
+        "comparedFiles": 6,
+        "exactInstalledVersionKnown": false
+      },
+      "licenseFiles": [
+        "pbkdf2-3.1.2-LICENSE"
+      ]
+    },
+    {
+      "name": "process",
+      "referenceVersion": "0.11.10",
+      "license": "MIT",
+      "source": "https://registry.npmjs.org/process/-/process-0.11.10.tgz",
+      "sourceMatching": {
+        "matchedFiles": 1,
+        "comparedFiles": 1,
+        "exactInstalledVersionKnown": false
+      },
+      "licenseFiles": [
+        "process-0.11.10-LICENSE"
+      ]
+    },
+    {
+      "name": "process-nextick-args",
+      "referenceVersion": "2.0.1",
+      "license": "MIT",
+      "source": "https://registry.npmjs.org/process-nextick-args/-/process-nextick-args-2.0.1.tgz",
+      "sourceMatching": {
+        "matchedFiles": 1,
+        "comparedFiles": 1,
+        "exactInstalledVersionKnown": false
+      },
+      "licenseFiles": [
+        "process-nextick-args-2.0.1-license.md"
+      ]
+    },
+    {
+      "name": "public-encrypt",
+      "referenceVersion": "4.0.3",
+      "license": "MIT",
+      "source": "https://registry.npmjs.org/public-encrypt/-/public-encrypt-4.0.3.tgz",
+      "sourceMatching": {
+        "matchedFiles": 6,
+        "comparedFiles": 6,
+        "exactInstalledVersionKnown": false
+      },
+      "licenseFiles": [
+        "public-encrypt-4.0.3-LICENSE"
+      ]
+    },
+    {
+      "name": "randombytes",
+      "referenceVersion": "2.1.0",
+      "license": "MIT",
+      "source": "https://registry.npmjs.org/randombytes/-/randombytes-2.1.0.tgz",
+      "sourceMatching": {
+        "matchedFiles": 1,
+        "comparedFiles": 1,
+        "exactInstalledVersionKnown": false
+      },
+      "licenseFiles": [
+        "randombytes-2.1.0-LICENSE"
+      ]
+    },
+    {
+      "name": "randomfill",
+      "referenceVersion": "1.0.4",
+      "license": "MIT",
+      "source": "https://registry.npmjs.org/randomfill/-/randomfill-1.0.4.tgz",
+      "sourceMatching": {
+        "matchedFiles": 1,
+        "comparedFiles": 1,
+        "exactInstalledVersionKnown": false
+      },
+      "licenseFiles": [
+        "randomfill-1.0.4-LICENSE"
+      ]
+    },
+    {
+      "name": "readable-stream",
+      "referenceVersion": "2.3.8",
+      "license": "MIT",
+      "source": "https://registry.npmjs.org/readable-stream/-/readable-stream-2.3.8.tgz",
+      "sourceMatching": {
+        "matchedFiles": 12,
+        "comparedFiles": 12,
+        "exactInstalledVersionKnown": false
+      },
+      "licenseFiles": [
+        "readable-stream-2.3.8-LICENSE"
+      ]
+    },
+    {
+      "name": "readable-stream",
+      "referenceVersion": "3.6.2",
+      "license": "MIT",
+      "source": "https://registry.npmjs.org/readable-stream/-/readable-stream-3.6.2.tgz",
+      "sourceMatching": {
+        "matchedFiles": 15,
+        "comparedFiles": 15,
+        "exactInstalledVersionKnown": false
+      },
+      "licenseFiles": [
+        "readable-stream-3.6.2-LICENSE"
+      ]
+    },
+    {
+      "name": "regenerator-runtime",
+      "referenceVersion": "0.13.11",
+      "license": "MIT",
+      "source": "https://registry.npmjs.org/regenerator-runtime/-/regenerator-runtime-0.13.11.tgz",
+      "sourceMatching": {
+        "matchedFiles": 1,
+        "comparedFiles": 1,
+        "exactInstalledVersionKnown": false
+      },
+      "licenseFiles": [
+        "regenerator-runtime-0.13.11-LICENSE"
+      ]
+    },
+    {
+      "name": "ripemd160",
+      "referenceVersion": "2.0.2",
+      "license": "MIT",
+      "source": "https://registry.npmjs.org/ripemd160/-/ripemd160-2.0.2.tgz",
+      "sourceMatching": {
+        "matchedFiles": 1,
+        "comparedFiles": 1,
+        "exactInstalledVersionKnown": false
+      },
+      "licenseFiles": [
+        "ripemd160-2.0.2-LICENSE"
+      ]
+    },
+    {
+      "name": "safe-buffer",
+      "referenceVersion": "5.1.2",
+      "license": "MIT",
+      "source": "https://registry.npmjs.org/safe-buffer/-/safe-buffer-5.1.2.tgz",
+      "sourceMatching": {
+        "matchedFiles": 1,
+        "comparedFiles": 1,
+        "exactInstalledVersionKnown": false
+      },
+      "licenseFiles": [
+        "safe-buffer-5.1.2-LICENSE"
+      ]
+    },
+    {
+      "name": "safe-buffer",
+      "referenceVersion": "5.2.1",
+      "license": "MIT",
+      "source": "https://registry.npmjs.org/safe-buffer/-/safe-buffer-5.2.1.tgz",
+      "sourceMatching": {
+        "matchedFiles": 1,
+        "comparedFiles": 1,
+        "exactInstalledVersionKnown": false
+      },
+      "licenseFiles": [
+        "safe-buffer-5.2.1-LICENSE"
+      ]
+    },
+    {
+      "name": "safer-buffer",
+      "referenceVersion": "2.1.2",
+      "license": "MIT",
+      "source": "https://registry.npmjs.org/safer-buffer/-/safer-buffer-2.1.2.tgz",
+      "sourceMatching": {
+        "matchedFiles": 1,
+        "comparedFiles": 1,
+        "exactInstalledVersionKnown": false
+      },
+      "licenseFiles": [
+        "safer-buffer-2.1.2-LICENSE"
+      ]
+    },
+    {
+      "name": "saxes",
+      "referenceVersion": "5.0.1",
+      "license": "ISC; retained historical MIT notice",
+      "source": "https://registry.npmjs.org/saxes/-/saxes-5.0.1.tgz",
+      "sourceMatching": {
+        "matchedFiles": 0,
+        "comparedFiles": 1,
+        "exactInstalledVersionKnown": false
+      },
+      "licenseFiles": [
+        "saxes-5.0.1-LICENSE"
+      ]
+    },
+    {
+      "name": "setimmediate",
+      "referenceVersion": "1.0.5",
+      "license": "MIT",
+      "source": "https://registry.npmjs.org/setimmediate/-/setimmediate-1.0.5.tgz",
+      "sourceMatching": {
+        "matchedFiles": 0,
+        "comparedFiles": 1,
+        "exactInstalledVersionKnown": false
+      },
+      "licenseFiles": [
+        "setimmediate-1.0.5-LICENSE.txt"
+      ]
+    },
+    {
+      "name": "sha.js",
+      "referenceVersion": "2.4.11",
+      "license": "(MIT AND BSD-3-Clause)",
+      "source": "https://registry.npmjs.org/sha.js/-/sha.js-2.4.11.tgz",
+      "sourceMatching": {
+        "matchedFiles": 8,
+        "comparedFiles": 8,
+        "exactInstalledVersionKnown": false
+      },
+      "licenseFiles": [
+        "sha.js-2.4.11-LICENSE"
+      ]
+    },
+    {
+      "name": "stream-browserify",
+      "referenceVersion": "2.0.2",
+      "license": "MIT",
+      "source": "https://registry.npmjs.org/stream-browserify/-/stream-browserify-2.0.2.tgz",
+      "sourceMatching": {
+        "matchedFiles": 1,
+        "comparedFiles": 1,
+        "exactInstalledVersionKnown": false
+      },
+      "licenseFiles": [
+        "stream-browserify-2.0.2-LICENSE"
+      ]
+    },
+    {
+      "name": "string_decoder",
+      "referenceVersion": "1.3.0",
+      "license": "MIT",
+      "source": "https://registry.npmjs.org/string_decoder/-/string_decoder-1.3.0.tgz",
+      "sourceMatching": {
+        "matchedFiles": 1,
+        "comparedFiles": 1,
+        "exactInstalledVersionKnown": false
+      },
+      "licenseFiles": [
+        "string_decoder-1.3.0-LICENSE"
+      ]
+    },
+    {
+      "name": "timers-browserify",
+      "referenceVersion": "1.4.2",
+      "license": "MIT",
+      "source": "https://registry.npmjs.org/timers-browserify/-/timers-browserify-1.4.2.tgz",
+      "sourceMatching": {
+        "matchedFiles": 1,
+        "comparedFiles": 1,
+        "exactInstalledVersionKnown": false
+      },
+      "licenseFiles": [
+        "timers-browserify-1.4.2-LICENSE.md"
+      ]
+    },
+    {
+      "name": "util",
+      "referenceVersion": "0.10.4",
+      "license": "MIT",
+      "source": "https://registry.npmjs.org/util/-/util-0.10.4.tgz",
+      "sourceMatching": {
+        "matchedFiles": 2,
+        "comparedFiles": 2,
+        "exactInstalledVersionKnown": false
+      },
+      "licenseFiles": [
+        "util-0.10.4-LICENSE"
+      ]
+    },
+    {
+      "name": "util-deprecate",
+      "referenceVersion": "1.0.2",
+      "license": "MIT",
+      "source": "https://registry.npmjs.org/util-deprecate/-/util-deprecate-1.0.2.tgz",
+      "sourceMatching": {
+        "matchedFiles": 1,
+        "comparedFiles": 1,
+        "exactInstalledVersionKnown": false
+      },
+      "licenseFiles": [
+        "util-deprecate-1.0.2-LICENSE"
+      ]
+    },
+    {
+      "name": "uuid",
+      "referenceVersion": "8.3.2",
+      "license": "MIT",
+      "source": "https://registry.npmjs.org/uuid/-/uuid-8.3.2.tgz",
+      "sourceMatching": {
+        "matchedFiles": 15,
+        "comparedFiles": 15,
+        "exactInstalledVersionKnown": false
+      },
+      "licenseFiles": [
+        "uuid-8.3.2-LICENSE.md"
+      ]
+    },
+    {
+      "name": "xmlchars",
+      "referenceVersion": "2.2.0",
+      "license": "MIT",
+      "source": "https://registry.npmjs.org/xmlchars/-/xmlchars-2.2.0.tgz",
+      "sourceMatching": {
+        "matchedFiles": 0,
+        "comparedFiles": 3,
+        "exactInstalledVersionKnown": false
+      },
+      "licenseFiles": [
+        "xmlchars-2.2.0-LICENSE"
+      ]
+    }
+  ]
+}
