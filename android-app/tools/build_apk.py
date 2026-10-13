@@ -29,7 +29,7 @@ shutil.copyfile(build/'resources.apk',build/'unsigned.apk')
 with zipfile.ZipFile(build/'unsigned.apk','a',compression=zipfile.ZIP_DEFLATED)as z:
  for p in (build/'dex').glob('*.dex'):z.write(p,p.name)
 run(bt/'zipalign','-f','4',build/'unsigned.apk',build/'aligned.apk')
-dist=task/'dist';dist.mkdir(exist_ok=True);output=dist/'kejian-0.2.1.apk'
+dist=task/'dist';dist.mkdir(exist_ok=True);output=dist/'kejian-0.3.0.apk'
 run(bt/'apksigner','sign','--ks',signing/'kejian-release.p12','--ks-key-alias','kejian-release','--ks-pass','file:'+str(signing/'password.txt'),'--v1-signing-enabled','true','--v2-signing-enabled','true','--v3-signing-enabled','true','--out',output,build/'aligned.apk')
 run(bt/'apksigner','verify','--verbose','--print-certs',output)
 run(bt/'zipalign','-c','4',output)

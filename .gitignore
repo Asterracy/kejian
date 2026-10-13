@@ -34,3 +34,8 @@ prototype/examples/general-results.json
 .DS_Store
 android-app/assets/THIRD_PARTY_NOTICES.md
 android-app/assets/third-party-licenses/
+
+# Disposable promotional video renderer
+tools/promo/.deps/
+tools/promo/qa/
+tools/promo/output/

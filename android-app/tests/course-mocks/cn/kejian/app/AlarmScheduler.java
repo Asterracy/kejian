@@ -1,0 +1,1 @@
+package cn.kejian.app;import android.content.*;public class AlarmScheduler {static final String STATE="kejian-prototype-v1";static SharedPreferences prefs(Context c){return c.prefs;}}

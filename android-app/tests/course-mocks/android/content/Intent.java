@@ -1,0 +1,1 @@
+package android.content;public class Intent { public static final int FLAG_ACTIVITY_NEW_TASK=1,FLAG_ACTIVITY_CLEAR_TOP=2;public Intent(Context c,Class<?> k){}public Intent setAction(String s){return this;}public Intent setFlags(int f){return this;} }

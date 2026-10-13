@@ -10,3 +10,5 @@ let nativePromptLastId='';$('reminder-form').addEventListener('submit',()=>{try{
 window.addEventListener('native-status',()=>{updateNativeStatus();refresh();});
 window.addEventListener('focus',updateNativeStatus);
 updateNativeStatus();
+
+const courseSettingsButton=document.createElement('button');courseSettingsButton.type='button';courseSettingsButton.textContent='锁屏课程卡片';courseSettingsButton.id='native-course-settings';$('menu').append(courseSettingsButton);courseSettingsButton.onclick=()=>{menuClose();KejianNative.courseNotificationSettings();};

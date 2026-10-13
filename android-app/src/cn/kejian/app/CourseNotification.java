@@ -1,0 +1,18 @@
+package cn.kejian.app;
+import android.app.*;import android.content.*;import org.json.*;import java.time.ZoneId;import java.util.*;
+/** Optional low-importance card. RTC alarms do not wake the device or request exact alarm access. */
+public final class CourseNotification {
+ static final String CHANNEL="kejian_courses",ON="course_card_on",DETAILS="course_card_details";static final int ID=7101;
+ static void channel(Context c){NotificationChannel ch=new NotificationChannel(CHANNEL,"锁屏课程卡片",NotificationManager.IMPORTANCE_LOW);ch.setDescription("本节课与下节课，静音更新；系统省电可能延后");ch.setSound(null,null);ch.enableVibration(false);ch.setLockscreenVisibility(Notification.VISIBILITY_PUBLIC);c.getSystemService(NotificationManager.class).createNotificationChannel(ch);}
+ static boolean enabled(Context c){channel(c);NotificationManager n=c.getSystemService(NotificationManager.class);return n.areNotificationsEnabled()&&n.getNotificationChannel(CHANNEL).getImportance()!=NotificationManager.IMPORTANCE_NONE;}
+ static PendingIntent tick(Context c){return PendingIntent.getBroadcast(c,ID,new Intent(c,CourseNotificationReceiver.class).setAction("cn.kejian.app.COURSE_UPDATE"),PendingIntent.FLAG_UPDATE_CURRENT|PendingIntent.FLAG_IMMUTABLE);}
+ static synchronized boolean configure(Context c,boolean on,boolean details){boolean ok=AlarmScheduler.prefs(c).edit().putBoolean(ON,on).putBoolean(DETAILS,details).commit();if(ok)reconcile(c);return ok;}
+ static synchronized void reconcile(Context c){AlarmManager alarm=c.getSystemService(AlarmManager.class);NotificationManager n=c.getSystemService(NotificationManager.class);alarm.cancel(tick(c));if(!AlarmScheduler.prefs(c).getBoolean(ON,false)||!enabled(c)){n.cancel(ID);return;}
+ try{JSONObject state=new JSONObject(AlarmScheduler.prefs(c).getString(AlarmScheduler.STATE,"{}"));JSONArray a=state.optJSONArray("courses");List<CoursePlan.Course> courses=new ArrayList<>();if(a!=null)for(int i=0;i<a.length();i++){JSONObject r=a.optJSONObject(i);if(r!=null)courses.add(new CoursePlan.Course(r.optString("date"),r.optString("name"),r.optString("location"),r.optString("start"),r.optString("end")));}Map<String,String> overrides=new HashMap<>();JSONObject o=state.optJSONObject("overrides");if(o!=null){Iterator<String> keys=o.keys();while(keys.hasNext()){String k=keys.next();overrides.put(k,o.optString(k));}}
+ CoursePlan.Plan p=CoursePlan.calculate(courses,overrides,System.currentTimeMillis(),ZoneId.systemDefault());PendingIntent tap=PendingIntent.getActivity(c,ID,new Intent(c,MainActivity.class).setFlags(Intent.FLAG_ACTIVITY_NEW_TASK|Intent.FLAG_ACTIVITY_CLEAR_TOP),PendingIntent.FLAG_UPDATE_CURRENT|PendingIntent.FLAG_IMMUTABLE);
+ Notification hidden=new Notification.Builder(c,CHANNEL).setSmallIcon(R.drawable.ic_notification).setContentTitle("课间 · 课程卡片").setContentText("解锁后查看课程详情").setContentIntent(tap).setVisibility(Notification.VISIBILITY_PUBLIC).setShowWhen(false).build();
+ boolean details=AlarmScheduler.prefs(c).getBoolean(DETAILS,false);String title=details?p.title():"课间 · 课程卡片",text=details?p.text():"打开课间查看课程详情";
+ Notification card=new Notification.Builder(c,CHANNEL).setSmallIcon(R.drawable.ic_notification).setContentTitle(title).setContentText(text.replace('\n',' ')).setStyle(new Notification.BigTextStyle().bigText(text)).setContentIntent(tap).setVisibility(details?Notification.VISIBILITY_PUBLIC:Notification.VISIBILITY_PRIVATE).setPublicVersion(hidden).setOngoing(true).setOnlyAlertOnce(true).setShowWhen(false).setCategory(Notification.CATEGORY_STATUS).build();n.notify(ID,card);
+ alarm.setWindow(AlarmManager.RTC,p.boundary,10*60*1000L,tick(c));
+ }catch(Exception e){n.cancel(ID);/* Do not leave stale personal data on screen after a failed recompute. */}}
+}

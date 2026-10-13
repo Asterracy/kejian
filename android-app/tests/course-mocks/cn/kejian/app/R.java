@@ -1,0 +1,1 @@
+package cn.kejian.app;public class R {public static class drawable {public static final int ic_notification=1;}}

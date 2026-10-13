@@ -1,0 +1,1 @@
+package cn.kejian.app;public class CourseNotificationReceiver {}

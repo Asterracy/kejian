@@ -1,0 +1,1 @@
+package android.app;public class AlarmManager {public static final int RTC=1;public boolean scheduled;public long at,window;public int type;public void cancel(PendingIntent p){scheduled=false;}public void setWindow(int t,long a,long w,PendingIntent p){type=t;at=a;window=w;scheduled=true;}}

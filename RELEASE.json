@@ -1,24 +1,34 @@
 {
   "application": "Kejian / 课间",
   "package": "cn.kejian.app",
-  "versionName": "0.2.1",
-  "versionCode": 3,
+  "versionName": "0.3.0",
+  "versionCode": 4,
   "minSdk": 26,
   "targetSdk": 35,
-  "apkBytes": 320667,
-  "apkSha256": "d03329b69eece656873eacf541abd3778497a3c16dd85c07c7ba110ee0b3dc2e",
+  "apkBytes": 406747,
+  "apkSha256": "ca61bce705540a65b8b26165e8f5b771781e73e38f08a35c6d82e46cedddaa28",
   "certificateSha256": "97c537e371e113110a69aea8e5118eeba32d3de7d369bafe6c47e19f13ebd5f9",
-  "signatureSchemesVerified": ["v2", "v3"],
+  "signatureSchemesVerified": [
+    "v2",
+    "v3"
+  ],
   "debuggable": false,
-  "releaseBinary": "kejian-0.2.1-android.zip (signed APK with accompanying third-party notices)",
+  "releaseBinary": "kejian-0.3.0.apk",
   "publicSyntheticTests": {
     "generalExcel": 47,
     "existingExcel": 31,
     "courseAndPetPackage": 23,
-    "domAndNativeBridgeMock": 19,
+    "domAndNativeBridgeMock": 21,
     "nativeTimeAndNotificationStatus": 15,
-    "nativeInflate": 31
+    "nativeInflate": 31,
+    "coursePlan": 30,
+    "courseNotificationMock": 19
   },
-  "userReportedImport": {"version": "0.2.0", "scope": "One user reported successful import; field, week and time correctness not fully validated."},
-  "androidDeviceAcceptanceComplete": false
+  "userReportedImport": {
+    "version": "0.2.0",
+    "scope": "One user reported successful import; field, week and time correctness not fully validated."
+  },
+  "androidDeviceAcceptanceComplete": false,
+  "releaseStatus": "test build awaiting device acceptance",
+  "baseCommit": "f28bc2f27b6280506cec0ee65d1d5e2a03653ba1"
 }
